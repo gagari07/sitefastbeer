@@ -1,0 +1,189 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background-color: rgba(41, 44, 44, 0.863);
+}
+
+
+
+section {
+    margin-top: 250px;
+    margin-bottom:300px;
+}
+
+h2 {
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size:  50px;
+}
+
+p,
+form input {
+    font-family: "Nanum Gothic", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgba(230, 240, 240, 0.897);
+}
+
+form input,
+form textarea {
+    color: rgba(41, 44, 44, 0.863);
+}
+
+.styles h2,
+li,
+button { 
+    font-family: "Lobster", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size:  30px;
+    
+}
+
+.container   {
+    max-width: 1280px;
+    width: 100%;
+    margin: auto;
+}
+
+p {
+    margin:0 20px;
+}
+
+
+
+
+header {
+    background-color: rgba(240, 189, 24, 0.911);
+    
+}
+
+header img {
+    width: 200px;
+    border-radius: 70%;
+}
+
+header .container {
+    display: flex;
+    justify-content:space-between;
+    padding: 38px;
+}
+
+nav  {
+    display: flex;
+    align-items: center;
+    
+}
+
+header nav li  {
+    display: inline;
+    margin: 0 20px;
+
+}
+
+header nav li a {
+    text-decoration: none;
+    color: rgba(41, 44, 44, 0.863)
+}
+
+
+h2 {
+    text-align: center;
+    margin: 150px auto;
+    color: rgba(230, 240, 240, 0.897);
+}
+
+.styles h2 {
+    margin: 30px auto;
+}
+
+.styles {
+    display: flex;
+    
+}
+
+.store {
+    display: flex;
+}
+
+
+
+.store ul img {
+    height: 75px;
+    margin: 15px 20px;
+    border-radius: 10%;
+}
+
+.store  li {
+    display: inline;
+}
+
+.styles img {
+    width: 400px;
+    height: 300px;
+    display: block;
+    margin: 20px auto;
+    
+}
+
+.styles div {
+    margin: 20px;
+}
+
+img {
+    border-radius: 5%;
+}
+
+
+
+form input,
+form button,
+form textarea {
+    display: flex;
+    width: 400px;
+    height: 50px;
+    padding: 12px;
+    margin: 5px auto;
+    
+}
+
+form button {
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border: none;
+}
+
+
+form button:hover {
+    background-color: rgba(240, 189, 24, 0.911);
+}
+
+input:focus,
+textarea:focus {
+    outline-color: rgba(41, 44, 44, 0.863);
+}
+
+
+form textarea {
+    resize: none;
+    height: 300px;
+    
+}
+
+
+footer {
+    background-color:rgba(240, 189, 24, 0.911) ;
+    padding: 25px;
+    margin-top: 50px;
+}
+
+footer p {
+    color: rgba(41, 44, 44, 0.863);
+}
